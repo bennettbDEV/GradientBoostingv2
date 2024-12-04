@@ -10,26 +10,26 @@ and look into an additional machine learning concept. I did some research and fo
 
 To install the dependencies and run the code for yourself, follow these simple steps in your terminal:
 
-0. (Optionally) Set up a [virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
-```sh
-python -m venv venv
-```
-0a. Activate the virtual environment - for Windows:
-```sh
-.\venv\Scripts\activate
-```
-0b. Activate the virtual environment - for Linux/Mac:
-```sh
-source venv/bin/activate
-```
 1. Clone the repo (into the currect directory)
 ```sh
 git clone https://github.com/bennettbDEV/GradientBoostingv2.git .
 ```
-2. Install necessary packages
+2. (Optionally) Set up a [virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
+```sh
+python -m venv venv
+```
+2a. Activate the virtual environment - for Windows:
+```sh
+.\venv\Scripts\activate
+```
+2b. Activate the virtual environment - for Linux/Mac:
+```sh
+source venv/bin/activate
+```
+3. Install necessary packages
 ```sh
 python -m pip install -r requirements.txt
 ```
-3. Run the program!
+4. Run the program!
 ```sh
 python main.py
