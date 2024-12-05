@@ -14,7 +14,7 @@ To implement a simple version of a Gradient Boosting Binary Classifier, I used t
     <img src="images\GradientBoostingPsuedoCode_Wikipedia.png" alt="Gradient Boosting Psuedocode">
   </a>
 
-My implementation is in the models.py file and uses a Decision Tree Regressor, from the scikit-learn library, as the weak learner. 
+My implementation is in the models.py file and uses a [Decision Tree Regressor](https://scikit-learn.org/dev/modules/generated/sklearn.tree.DecisionTreeRegressor.html), from the scikit-learn library, as the weak learner. 
 
 ### Using Gradient Boosting for Spam Email Classification
 To build and evaluate my model, I first needed a suitable dataset for training and testing. To do this, I utilized [this](https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset) Spam Email Dataset from Kaggle.
