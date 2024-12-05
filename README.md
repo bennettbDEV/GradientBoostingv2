@@ -7,7 +7,7 @@ and look into an additional machine learning concept. I did some research and fo
 
 
 ## Code Overview
-### The model:
+### The Model:
 To implement a simple version of a Gradient Boosting Binary Classifier, I used the following pseudo-code as an outline:
 
 <a href="https://en.wikipedia.org/wiki/Gradient_boosting">
@@ -25,7 +25,7 @@ To address the potential imbalance between the number of spam and non-spam email
 
 With the data processed, I trained and tested my custom gradient boosting model and also evaluated [XGBoost (eXtreme Gradient Boosting)](https://xgboost.readthedocs.io/en/stable/), which is a widely-used gradient-boosted decision tree library, for comparison.
 
-### The results
+### The Results
 Below, you’ll find 15 iterations of my Gradient Boosting model along with the corresponding loss for each iteration. Additionally, the testing results for both XGBoost and my model are presented. Despite my implementation being much slower, it is almost as accurate as XGBoost, which helps illustrate how powerful Gradient Boosting can be. 
 
 
