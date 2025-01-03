@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 While taking an Intro to AI course at my university, I wanted to go a bit beyond the content presented
-and look into an additional machine learning concept. I did some research and found that Gradient Boosting was a commonly used framework that is both accurate and flexible. Subsequently, I decided to make an informal write up about the subject and use the technique to classify emails as spam or non-spam.
+and look into an additional machine learning concept. I did some research and found that Gradient Boosting was a commonly used ML framework that is both accurate and flexible. Subsequently, I decided to make an informal write up about the subject and use the technique to classify emails as spam or non-spam.
 
 <br />
 
@@ -21,7 +21,7 @@ To build and evaluate my model, I first needed a suitable dataset for training a
 
 Next, I preprocessed the email data by removing non-alphanumeric characters, tokenizing each email, and transforming the text into [TF-IDF](https://builtin.com/articles/tf-idf) feature vectors based on the overall vocab.
 
-To address the potential imbalance between the number of spam and non-spam emails, I applied the [Synthetic Minority Oversampling Technique (SMOTE)](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/) using the imblearn package. This technique balanced the dataset by oversampling the minority class and undersampling the majority class.
+To address the potential imbalance between the number of spam and non-spam emails, I applied the [Synthetic Minority Oversampling Technique (SMOTE)](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/) using the [imblearn](https://imbalanced-learn.org/stable/) package. This technique balanced the dataset by oversampling the minority class and undersampling the majority class.
 
 With the data processed, I trained and tested my custom gradient boosting model and also evaluated [XGBoost (eXtreme Gradient Boosting)](https://xgboost.readthedocs.io/en/stable/), which is a widely-used gradient-boosted decision tree library, for comparison.
 
